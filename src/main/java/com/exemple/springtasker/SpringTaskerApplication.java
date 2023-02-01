@@ -8,7 +8,7 @@ public class SpringTaskerApplication {
 
     public static void main(String[] args) {
         SpringApplication.run(SpringTaskerApplication.class, args);
-        System.out.println("Application started");
+        System.out.println("Application started!");
     }
 
 }
