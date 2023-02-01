@@ -3,6 +3,7 @@ package com.exemple.springtasker;
 import jakarta.persistence.*;
 
 @Entity
+@Table(name = "tasker")
 public class Task {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
